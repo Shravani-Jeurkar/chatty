@@ -1,0 +1,68 @@
+{
+    "intents" :
+    [
+        {
+            "tag" : "greet",
+            "patterns" : [
+                "Hi", "Hey", "Hello", "Hey chatty!", "Namastey", "Namaskaar"
+            ],
+            "responses" : [
+                "Hello!", "Hey there", "Hie, How are you?", "How may I help you?", "How are you?"
+            ]
+        },
+        {
+            "tag" : "bye",
+            "patterns" : [
+                "Goodbye then", "See you later buddy", "ttyl", "Nice talking to you chatty"
+            ],
+            "responses" : [
+                "Bye-bye", "Have a great time", "Hope that see you soon buddy!"
+            ]
+        },
+        {
+            "tag" : "morning",
+            "patterns" : [
+                "Good Morning", "Morning", "GM"
+            ],
+            "responses" : [
+                "Good morning buddy", "Hey, morning there!", "Good morning, have a nice day!"
+            ]
+        },
+        {
+            "tag" : "night",
+            "patterns" : [
+                "Good Night", "Night", "GN"
+            ],
+            "responses" : [
+                "Good night buddy", "Hey, good night there!", "Good night, sleep tight!", "Take care buddy!"
+            ]
+        },
+        {
+            "tag" : "thank",
+            "patterns" : [
+                "Thank you", "Thanks", "Ty", "Thanks alot"
+            ],
+            "responses" : [
+                "My pleasure buddy", "You are welcome there!", "Anytime!", "No issue :)"
+            ]
+        },
+        {
+            "tag" : "who",
+            "patterns" : [
+                "Who are you", "What is your name?", "What should I call you?", "How should I call you?"
+            ],
+            "responses" : [
+                "My name is Chatty", "Myself Chatty! Nice to meet you", "You can call me Chatty :)", "No issue :)"
+            ]
+        },
+        {
+            "tag" : "what",
+            "patterns" : [
+                "What do you do", "What is your job?"
+            ],
+            "responses" : [
+                "I am Chatty, I am here for your help :)", "My job is to help you"
+            ]
+        }
+    ]
+}
